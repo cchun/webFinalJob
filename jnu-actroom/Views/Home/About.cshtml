@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "关于我们";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2></h2>
+</hgroup>
+
+<article>
+    <p>
+        这是一个课后讨论网，用于课后讨论课程的相关信息，或者发布一些校园公告和新闻。
+    </p>
+</article>
+
+<aside>
+    <h3>作者的话</h3>
+    <p>
+        这仅仅是用于作业的网站，如有问题，不要联系作者！
+    </p>
+    <ul>
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+    </ul>
+</aside>
